@@ -1,0 +1,33 @@
+.mainSection {
+    background-image: url("../public/images/destination/background-destination-desktop.jpg");
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+}
+
+.destinationHead{
+    margin: 1rem 6rem 0 6rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.destinationHead h5{
+    width: 50%;
+}
+.tabs{
+    margin-top: 2rem;
+}
+
+.tabs span{
+    margin-right: 1rem;
+}
+
+.tabs span:hover{
+    text-decoration: underline;
+    text-underline-offset: .75rem;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+.tabs span.active{
+    text-decoration: underline;
+    text-underline-offset: .75rem;
+}

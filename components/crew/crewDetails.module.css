@@ -1,0 +1,16 @@
+
+.crew{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 21rem;
+  }
+
+.crewDescription{
+    width: 90%;
+    padding: 1rem;
+}
+
+.crewDescription h3{
+    white-space: nowrap;
+}

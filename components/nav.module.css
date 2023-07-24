@@ -1,0 +1,56 @@
+.navBar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.brandMarker {
+  padding: 2rem;
+}
+.divider {
+  min-width: 29.5625rem;
+  height: 0.0625rem;
+  flex-shrink: 0;
+  opacity: 0.2514851987361908;
+  background: #fff;
+  margin-top: 3rem;
+}
+
+.navbarPanel {
+  text-align: center; 
+  height: 6rem;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+  padding: 2.4rem 2rem 2.4rem 2rem;
+}
+
+.links{
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16875rem;
+  margin-right: 2.5rem;
+  text-decoration: none;
+  display: inline-block;
+
+  .linkNumber {
+    font-weight: 700;
+  }
+}
+
+.links:hover{
+  text-decoration-color:  rgba(255, 255, 255, 0.5);
+  text-underline-offset: 2rem;
+  text-decoration-thickness: .25rem;
+}
+
+.active{
+  text-decoration: underline;
+  text-underline-offset: 2rem;
+  text-decoration-thickness: .25rem;
+}

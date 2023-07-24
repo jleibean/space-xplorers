@@ -1,0 +1,46 @@
+.mainSection {
+  background-image: url("../public/images/home/background-home-desktop.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainBlock {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 4rem 5rem 0 5rem;
+}
+
+.callToAction {
+  width: 40vw;
+}
+
+.callToAction h1{
+    padding: 1rem;
+}
+
+.explore {
+  margin-top: 5.5rem;
+  margin-left: 15rem;
+}
+
+.roundedCircle {
+  width: 15.125rem;
+  height: 15.125rem;
+  flex-shrink: 0;
+  border-radius: 17.125rem;
+  background-color: white;
+  opacity: 1;
+  border-color: white;
+}
+.roundedCircle:hover {
+    box-shadow: 0 0 0 3rem rgba(255, 255, 255, 0.151);
+    backdrop-filter: blur(40.774227142333984px);
+    background-color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+.buttonText, .exploreMore, .exploreMore:hover {
+  color: #0b0d17;
+  text-decoration: none;
+}

@@ -1,0 +1,47 @@
+.mainSection {
+  background-image: url("../public/images/crew/background-crew-desktop.jpg");
+  width: 100vw;
+  height: max-content;
+  min-height: 100vh;
+}
+
+.crewOverview {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1rem 6rem 0 6rem;
+}
+
+.crewMemberDetails {
+  width: 50%;
+}
+
+.crewSelection {
+  padding: 1rem;
+}
+.crewSelection button.active{
+    background-color: white;
+}
+.crewSelection button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.roundedCircle {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 17.125rem;
+  background-color: rgba(255, 255, 255, 0.178);
+  opacity: 1;
+  border-color: white;
+  margin-right: 1.5rem;
+}
+
+.crewImage {
+    position: relative
+}
+
+.crewImage img{
+    position:absolute;
+    bottom:0;
+    left: 10rem;
+}

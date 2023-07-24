@@ -1,0 +1,56 @@
+.mainSection {
+    background-image: url("../public/images/technology/background-technology-desktop.jpg");
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+}
+
+.mainSection h5{
+    margin: .5rem 6rem 0 6rem;
+}
+
+.techSelection{
+    display: inline;
+}
+
+  .techSelection button.active{
+      background-color: white;
+      color: black;
+  }
+  .techSelection button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+
+.techButton {
+ margin: 0 2rem 2rem 2rem;
+}
+
+.techOverview{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.techDetails{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5rem 3rem 0 3rem;
+    width: 50%;
+}
+
+.techImage img{
+    margin-top: -1.5rem;
+    margin-left: 4rem;
+}
+
+.roundedCircle {
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 17.125rem;
+    color: white;
+    background-color: transparent;
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.25);
+}
+

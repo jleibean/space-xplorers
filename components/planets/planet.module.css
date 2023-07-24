@@ -1,0 +1,21 @@
+
+.planet{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .planetImage{
+    width: 50%;
+}
+
+.planetDescription{
+    width: 35%;
+}
+
+.tripDetails{
+    Width: 50%;
+}
+.tripDetails p{
+    line-height: .5rem
+}
